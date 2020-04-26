@@ -187,10 +187,8 @@ body {
 .maincontact {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     background-color: rgb(32, 32, 32);
     padding: 4rem;
-    /* height: 80vh; */
 }
 
 .contactheading {
@@ -252,7 +250,6 @@ body {
 }
 
 .gallery {
-    /* max-width: 45rem; */
     margin-left: 5rem;
     background-color: rgb(32, 32, 32);
 }
