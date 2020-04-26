@@ -8,13 +8,14 @@
         <meta name="Description" content="UXFinalProject">
         <meta name="keywords" content="HTML,CSS,JS">
         <meta name="author" content="Monica D'Agosto"> 
-        <script src="https://kit.fontawesome.com/d97b8c82d1.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/d97b8c82d1.js" crossorigin="anonymous" asynch></script>
         <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
         <title>Escapes</title>
         <link rel="stylesheet" type="text/css" href="css/escapes.css">
         <script src="script/store.js" asynch></script>
+        <link rel="icon" href="img/Favicon.png" type="image/gif" sizes="16x16">
     </head>
    
     <body>
@@ -60,19 +61,19 @@
     
                 <ul class="navbarlist">
                     <li class="navbarpos">
-                        <a href="index.html" class="navbarlink">home</a>
+                        <a href="index.html" Title="Go to Home page" class="navbarlink">home</a>
                     </li>
                     <li class="navbarpos">
-                        <a href="index.html#aboutus" class="navbarlink">about us</a>
+                        <a href="index.html#aboutus" Title="Go to About Us page" class="navbarlink">about us</a>
                     </li>
                     <li class="navbarpos">
-                        <a href="index.html#escapes" class="navbarlink">escapes</a>
+                        <a href="index.html#escapes" Title="Go to Escapes page" class="navbarlink">escapes</a>
                     </li>
                     <li class="navbarpos">
-                        <a href="index.html#experiencers" class="navbarlink">experiencers</a>
+                        <a href="index.html#experiencers" Title="Go to Experiencers page" class="navbarlink">experiencers</a>
                     </li>
                     <li class="navbarpos">
-                        <a href="contact.html" class="navbarlink">contact</a>
+                        <a href="contact.html" Title="Go to Contat page" class="navbarlink">contact</a>
                     </li>
                 </ul>
             </nav> 
@@ -96,7 +97,7 @@
                         <h4 class="escapecardheading js-escapetitle">Camping in Alaska</h4>
                         <p class="escapecardparagraph">1 Week all inclusive.</p>
                         <p class="escapeprice js-escapeprice">&#163; 700.00</p>
-                        <button class="escapecardbutton js-escapebutton js-addbutton">
+                        <button aria-label="Add this Escape to basket" class="escapecardbutton js-escapebutton js-addbutton">
                             Add To Basket
                             <i class="fas fa-angle-double-right btnarrow"></i>
                         </button>
@@ -108,7 +109,7 @@
                         <h4 class="escapecardheading js-escapetitle">Photography in Tibet</h4>
                         <p class="escapecardparagraph">1 Week all inclusive.</p>
                         <p class="escapeprice js-escapeprice">&#163; 1500.00</p>
-                        <button class="escapecardbutton js-escapebutton js-addbutton">
+                        <button aria-label="Add this Escape to basket" class="escapecardbutton js-escapebutton js-addbutton">
                             Add To Basket
                             <i class="fas fa-angle-double-right btnarrow"></i>
                         </button>
@@ -120,7 +121,7 @@
                         <h4 class="escapecardheading js-escapetitle">China Walks</h4>
                         <p class="escapecardparagraph">1 Week all inclusive.</p>
                         <p class="escapeprice js-escapeprice">&#163; 1500.00</p>
-                        <button class="escapecardbutton js-escapebutton js-addbutton">
+                        <button aria-label="Add this Escape to basket" class="escapecardbutton js-escapebutton js-addbutton">
                             Add To Basket
                             <i class="fas fa-angle-double-right btnarrow"></i>
                         </button>
@@ -132,7 +133,7 @@
                         <h4 class="escapecardheading js-escapetitle">Norway Fiords</h4>
                         <p class="escapecardparagraph">1 Week all inclusive.</p>
                         <p class="escapeprice js-escapeprice">&#163; 800.00</p>
-                        <button class="escapecardbutton js-escapebutton js-addbutton">
+                        <button aria-label="Add this Escape to basket" class="escapecardbutton js-escapebutton js-addbutton">
                             Add To Basket
                             <i class="fas fa-angle-double-right btnarrow"></i>
                         </button>
@@ -163,7 +164,7 @@
                    <span class="escapetotalprice">£0.00</span>
                  </div>
                <div class="escapesbuttonwrapper escapebutton">
-                <button class="escapesbutton js-escapebutton js-checkout" type="button">CHECK OUT</button>
+                <button aria-label="Purchase escapes" class="escapesbutton js-escapebutton js-checkout" type="button">CHECK OUT</button>
                </div>
             </div>
         </section>

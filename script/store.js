@@ -78,7 +78,7 @@ function addItemToBasket(title, price, imageSrc) {
         <span class="js-price js-line">${price}</span>
         <div class="js-quantity js-line">
             <input class="js-quantity-input" type="number" value="1">
-            <button class="js-escapebutton buttonremove" type="button">REMOVE</button>
+            <button aria-label="Add this Escape to basket" class="js-escapebutton buttonremove" type="button">REMOVE</button>
         </div>`
         escapeBasket.innerHTML = escapeBasketContents
     escapeItems.append(escapeBasket)
